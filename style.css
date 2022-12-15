@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+body {
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.board {
+
+}
+
+.player {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+
+.deck {
+    height: 100px;
+    width: 66px;
+    background-color: #ff6e6e;
+    border-radius: .5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    user-select: none;
+}
+
+.slot {
+    display: flex;
+    min-height: 100px;
+    min-width: 66px;
+    gap: .5rem;
+}
+
+.card {
+    height: 100px;
+    width: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+    user-select: none;
+}
+
+.red {
+    color: red;
+}
